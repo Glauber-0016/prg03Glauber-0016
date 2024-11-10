@@ -19,14 +19,14 @@ public class Fatorial {
     public int getFatorial (int n) {
         int fatorial = 1;
           
-        for (int i = valor; i > 1; i--)
-        {
+        for (int i = valor; i > 1; i--) {
             fatorial *= i;
         }
         
         return fatorial;
     }
     
+    //Colocando o calculo de fatorial em uma string
     public String getFormula () {
         StringBuilder formula = new StringBuilder();
         
@@ -38,5 +38,4 @@ public class Fatorial {
         return formula.toString();
  
     }
-    
 }
