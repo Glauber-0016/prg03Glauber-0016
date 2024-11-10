@@ -17,13 +17,11 @@ public class Fatorial {
     
     //Pegando o Fatorial de um Número n
     public int getFatorial (int n) {
-        int fatorial = 1;
-          
         for (int i = valor; i > 1; i--) {
-            fatorial *= i;
+            n *= i;
         }
         
-        return fatorial;
+        return n;
     }
     
     //Colocando o calculo de fatorial em uma string
