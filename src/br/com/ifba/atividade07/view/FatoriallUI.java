@@ -100,7 +100,7 @@ public class FatoriallUI extends javax.swing.JFrame {
         
         //Exibe a formula do calculo e o resultado
         lblFormula.setText(fatorial.getFormula());
-        lblResultado.setText(" = " + fatorial.getFatorial(valor));
+        lblResultado.setText(" = " + fatorial.getFatorial());
     }//GEN-LAST:event_btnCalculaActionPerformed
 
     /**
