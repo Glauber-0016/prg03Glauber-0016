@@ -54,7 +54,7 @@ public class Genio extends javax.swing.JFrame {
 
         pnlImagem.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(153, 204, 255))); // NOI18N
 
-        lblImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade04/images/goku.png"))); // NOI18N
+        lblImagem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade04/image/goku.png"))); // NOI18N
         lblImagem.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         lblImagem.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
