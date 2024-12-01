@@ -29,4 +29,10 @@ public class Circulo extends FormaBidimensional {
     {
         return raio;
     }
+    
+    @Override
+    public String toString () 
+    {
+        return " - Circulo - ";
+    }
 }

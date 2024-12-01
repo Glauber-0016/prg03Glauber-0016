@@ -10,9 +10,6 @@ package br.com.ifba.atividade11.view;
  */
 public abstract class FormaTridimensional extends Formas {
     
-    @Override
-    public String toString ()
-    {
-        return "Forma Tridimensional";
-    }
+    public abstract void obterVolume();
+    public abstract void obterArea ();
 }

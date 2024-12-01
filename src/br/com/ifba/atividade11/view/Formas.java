@@ -10,5 +10,6 @@ package br.com.ifba.atividade11.view;
  */
 public abstract class Formas {
     
-    public abstract void obterArea ();
+    public abstract String toString();
+   
 }

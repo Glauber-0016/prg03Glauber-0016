@@ -10,10 +10,6 @@ package br.com.ifba.atividade11.view;
  */
 public abstract class FormaBidimensional extends Formas {
     
-    @Override
-    public String toString ()
-    {
-        return "Forma Bidimensional";
-    }
+    public abstract void obterArea ();
     
 }

@@ -18,6 +18,7 @@ public class Esfera extends FormaTridimensional {
     }
     
     // Calcula o volume e o imprime
+    @Override
     public void obterVolume () 
     { 
         System.out.printf("volume da esfera | %.2f%n", (4 * Math.PI * Math.pow(getRaio(), 3)) / 3);
@@ -33,5 +34,11 @@ public class Esfera extends FormaTridimensional {
     private double getRaio () 
     {
         return raio;
+    }
+    
+    @Override
+    public String toString () 
+    {
+        return " - Esfera -";
     }
 }
